@@ -1,0 +1,89 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+body{
+    background-color: lightblue;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+    
+}
+.maincontent{
+    background-color: black;
+    padding: 35px 30px;
+    border-radius: 20%;
+    height: 100%;
+    margin-top: -250px;
+    transform: rotate(-90deg);
+
+}
+.box1:hover{
+    background-color: red;
+    box-shadow: 0px 0px 5px  #fe2121,
+                0px 0px 30px #fe2121,
+                0px 0px 90px #fe2121;
+}
+.box2:hover{
+    background-color: yellow;
+    box-shadow: 0px 0px 5px  #fef721,
+    0px 0px 30px #fef721,
+    0px 0px 90px #fef721;
+}
+
+.box3:hover{
+    background-color: rgb(7, 250, 7);
+    box-shadow: 0px 0px 5px  #21fe30,
+    0px 0px 30px #21fe30,
+    0px 0px 90px #21fe30;
+}
+.stand{
+    width: 40px;
+    height:225px;
+    background-color:black;
+    position: relative;
+    top: -124px;
+    left: 180px;
+    z-index: -1;
+    transform: rotate(90deg);
+    border-radius: 20px;
+
+}
+.stand2{
+    width: 40px;
+    height:565px;
+    background-color:black;
+    position: relative;
+    top: 10px;
+    left: 240px;
+    z-index: -1;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+
+}
+
